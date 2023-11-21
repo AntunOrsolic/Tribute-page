@@ -1,0 +1,103 @@
+body {
+    background-color: #cee;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+  }
+  
+  #img-div {
+      background: white;
+      padding: 10px;
+      margin: 0;
+  }
+  
+  #img-caption {
+      margin: 15px 0 5px 0;
+  }
+  
+  figcaption {
+    display: block;
+  }
+  
+  figure {
+      border: thin #c0c0c0 solid;
+      display: flex;
+      flex-flow: column;
+      padding: 5px;
+      max-width: 100%;
+      margin: auto;
+  }
+
+  #video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  a {
+      color: #476cd7;
+      text-decoration: underline;
+  }
+  
+  #title {
+      color: #305c8c;
+      text-decoration: none;
+  }
+  
+  #title:hover {
+      text-transform: uppercase;
+      font-weight: bolder;
+      color: #702828;
+  }
+  
+  h3 {
+      font-size: 1.17em;
+      font-weight: bold;
+  }
+  
+  ul {
+      max-width: 650px;
+      margin: 0 auto 0px 610px;
+      text-align: left;
+      line-height: 1.6;
+  }
+  
+  li {
+      margin: 16px 0;
+  }
+  
+  li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+  }
+  
+  #tribute-link {
+      text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* Stilovi za male ekrane (mobiteli) */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Stilovi za srednje ekrane (tableti) */
+  }
+  
